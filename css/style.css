@@ -18,8 +18,8 @@ body {
 }
 
 #navbar {
-    background-color: grey;
-    color: blue;
+    background-color: gray;
+    color: lightblue;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -27,7 +27,7 @@ body {
 }
 
 #navbar a {
-    color: blue;
+    color: lightblue;
     text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 #navbar ul li a:hover {
-    background-color: red;
+    background-color: lightblue;
     border-radius: 5px;
     color: black;
 }
@@ -52,4 +52,14 @@ body {
     #navbar ul {
         margin-top: 1rem;
     }
+}
+
+html, body, .container {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
